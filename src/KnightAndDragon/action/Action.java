@@ -459,21 +459,45 @@ public class Action {
     public static void comeToEnd(int a) {
         if (a == 1) {
             System.out.println("========================================");
-            System.out.println("走出森林，在前面不远处的的地平线上出现了一座城市，那是人类北方最靠近边境的一座城市--格尔里斯城，那是前往北方矮人国度的必经之地，你知道那个黑衣人如果前往矮人国度的话必须要经过这，想到这里，你加快了自己的脚步");
-            System.out.println("在离城市不远的地方，你隐约看到一个一身黑的家伙，黑衣人！！但是在他旁边没有见到你的女儿，你下意识的飞奔了过去，那个黑衣人也注意到了你，转身就朝森林跑去，可惜的是，他的速度太慢了，你两步便追上了他");
+            System.out.println("走出森林，在前面不远处的的地平线上出现了一座城市，那是人类北方最靠近边境的一座城市--格尔里斯城，那是前往北方矮人国度的必经之地，我知道那个黑衣人如果前往矮人国度的话必须要经过这，想到这里，我加快了自己的脚步");
+            System.out.println("在离城市不远的地方，我隐约看到一个一身黑的家伙，黑衣人！！但是在他旁边没有见到我的女儿，我下意识的飞奔了过去，那个黑衣人也注意到了我，转身就朝森林跑去，可惜的是，他的速度太慢了，我两步便追上了他");
             enemy enemy = Boss.getInstance().getEnemies().get(1);
             Knight knight = Knight.getInstance();
             Action.process(knight, enemy);
-            System.out.println("你打败了黑衣人，怒吼着问道女儿的下落，只见他哼哼了两声，说道“你的女儿已经献祭给萨尔莫斯魔王了，已经来不及了，哈哈哈..”说完，便喷出了一口黑色的血，你发现不妙，赶紧捏开他的嘴，结果慢了一步，他服下了口中的毒药自尽了");
-            System.out.println("你沮丧的看着北方，看来只能进城问问女儿的下落了");
+            System.out.println("我打败了黑衣人，怒吼着问道女儿的下落，只见他哼哼了两声，说道“我的女儿已经献祭给萨尔莫斯魔王了，已经来不及了，哈哈哈..”说完，便喷出了一口黑色的血，我发现不妙，赶紧捏开他的嘴，结果慢了一步，他服下了口中的毒药自尽了");
+            System.out.println("我沮丧的看着北方，看来只能进城问问女儿的下落了");
             Event event = Event.getInstance();
             event.oneEnd();
         }else if (a==2){
             System.out.println("========================================");
             System.out.println("昔日矮人族的金矿镇，是整个奇亚洛大路上最富有的城镇，每天都有无数的金子从城镇运往世界各地");
-            System.out.println("但当你踏上这片土地的时候，感觉到了一丝异样，城镇里面稀稀落落的人表情紧张的的走在街上，周围的店铺门窗紧闭，好像在防备着什么");
-            System.out.println("你走进了这个城镇唯一还在营业的一家酒馆里");
-            //TODO
+            TimeSleep.timeSleep(500);
+            System.out.println("但当我踏上这片土地的时候，感觉到了一丝异样，城镇里面稀稀落落的人表情紧张的的走在街上，周围的店铺门窗紧闭，好像在防备着什么");
+            TimeSleep.timeSleep(500);
+            System.out.println("我走进了这个城镇唯一还在营业的一家酒馆里");
+            TimeSleep.timeSleep(500);
+            System.out.println("“喝点什么”酒店老板在柜台后面放下了手中正在擦着的酒杯，面无表情的朝我说道");
+            TimeSleep.timeSleep(500);
+            System.out.println("我朝他打听了萨尔莫斯的事情");
+            TimeSleep.timeSleep(500);
+            System.out.println("酒店老板听完，脸色难看了许多，他给我到了一杯龙兰舌，压低声音跟我说,“半年之前，有一伙黑衣人来到了这个镇上，不久之后，金矿镇最大的金矿山就封闭了，没人知道里面发生了什么，只是听说矿山被一股神秘的黑暗力量给笼罩了，只要金山的人都会心智丧乱，被黑暗侵蚀”");
+            TimeSleep.timeSleep(500);
+            System.out.println("“这半年来，哪怕最勇敢的勇士，也不敢进矿山，都说矿山里面闹鬼了”");
+            TimeSleep.timeSleep(500);
+            System.out.println("“现在除了生活在这里的一些镇民，也基本不会有什么外人来这了”");
+            TimeSleep.timeSleep(500);
+            System.out.println("我皱了皱眉头，问他有没有进矿山的办法");
+            TimeSleep.timeSleep(500);
+            System.out.println("酒店老板摇摇头，忽然想起了什么似的，说道“听说两个月之前，镇西边有个老猎人进去过，你可以去问问他”，老板给我指了指镇西边的一片森林，“老猎人的家就在森林边上，不过我已经很久没有见过他了”");
+            TimeSleep.timeSleep(500);
+            System.out.println("我谢过老板，往西边走去");
+            TimeSleep.timeSleep(500);
+            System.out.println("出了镇，一路往西，便看到了一个屋子，应该就是老板说的老猎人的小屋");
+            TimeSleep.timeSleep(500);
+            System.out.println("走进小屋，透过窗户往里看了看，没有看到人影，我走到门口，敲了敲门，没人应，看来这个猎人不在家");
+            TimeSleep.timeSleep(500);
+            System.out.println("刚转身想要走回去，突然，身后一个敏捷的身影扑了过来");
+            //TODO 老猎人战斗
         }
     }
 
@@ -534,7 +558,7 @@ public class Action {
         Knight knight = Knight.getInstance();
         if (a == 1) {
             Info.getInstance().InfoOne();
-            System.out.println("请给你的英雄起一个名字");
+            System.out.println("请给英雄起一个名字");
             Scanner scanner = new Scanner(System.in);
             String name = scanner.next();
             knight.setKnightName(name);

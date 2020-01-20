@@ -38,7 +38,7 @@ public class Info {
     public void InfoTwo(){
         Knight knight=Knight.getInstance();
         System.out.println("离开格尔里斯，就进入到了矮人的领地");
-        System.out.println("金矿镇，离这里还有200里的路程，你的女儿已经被带走一周了，不知道还能不能赶得上");
+        System.out.println("金矿镇，离这里还有200里的路程，我的女儿已经被带走一周了，不知道还能不能赶得上");
         System.out.println("想到这里，你皱了皱眉头，加快了脚步");
     }
 
