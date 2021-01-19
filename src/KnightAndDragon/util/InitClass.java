@@ -20,9 +20,9 @@ public class InitClass {
         SkillList skillList=SkillList.getInstance();
         StatusList statusList=StatusList.getInstance();
         enemyList.init();
+        skillList.InitSkillList();
         Boss.InitBoss();
         materialsList.Initmaterials();
-        skillList.InitSkillList();
         items.InitMap();
         statusList.InitialStatus();
         skillList.InitSkillList();
